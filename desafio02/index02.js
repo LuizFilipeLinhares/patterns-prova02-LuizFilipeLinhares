@@ -51,8 +51,5 @@ class Message {
   console.log("Censurado:", censored.getText());
   
   const upper = new UpperCaseDecorator(censored);
-  console.log("Maiúsculo + censurado:", upper.getText());
-  
-  const positive = new PositiveEmojiDecorator(upper);
-  console.log("Final (decorado):", positive.getText());
+  console.log("Maiúsculo E censurado:", upper.getText());
   

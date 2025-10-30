@@ -37,7 +37,7 @@ class LegacyPaymentSystem {
 
   const legacy = new LegacyPaymentSystem();
   const processorLegacy = new PaymentProcessor(legacy);
-  processorLegacy.pay(100);
+  processorLegacy.pay(132);
   
   console.log('---');
   
@@ -45,5 +45,5 @@ class LegacyPaymentSystem {
   const modernAPI = new ModernPaymentAPI();
   const adapter = new ModernPaymentAdapter(modernAPI);
   const processorModern = new PaymentProcessor(adapter);
-  processorModern.pay(100);
-  
+  processorModern.pay(200);
+
